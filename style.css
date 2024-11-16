@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'MercurySSm-Book-Pro';
+    src: url('fonts/MercurySSm-Book-Pro_Web.woff2') format('woff2'),
+        url('fonts/MercurySSm-Book-Pro_Web.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+h1,
+p {
+    font-family: 'MercurySSm-Book-Pro', serif;
+    color: #0a2458;
+}
+
+.topper h1 {
+    /* font-size: 60px; */
+    color: rgb(10, 36, 88);
+}
+
+.row {
+    width: 100%;
+}
+
+.topper-primary {
+    margin-bottom: 30px;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.topper {
+    margin-bottom: 30px;
+    padding: 30px 0;
+    position: relative;
+}
+
+.container h1 {
+    color: rgb(10, 36, 88);
+    font-size: 44px;
+}
+
+.topper-date {
+    font-size: 17px;
+    color: rgb(10, 36, 88);
+    font-weight: 500;
+}
+
+.wh-breadcrumb {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+}
+
+
+.wh-breadcrumb:before {
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #826553;
+    border-top: 4px solid transparent;
+    content: "";
+    display: block;
+    height: 0;
+    margin: 6px 16px;
+    transform: rotate(0deg);
+    width: 0;
+}
+
+.breadcrumb__link:focus,
+.breadcrumb__link:hover {
+    border-bottom-color: rgba(156, 25, 25, .8);
+}
+
+.breadcrumb__link:focus,
+.breadcrumb__link:hover {
+    color: #9c1919;
+}
+
+.breadcrumb__link {
+    border-bottom: 1px solid transparent;
+    color: #0064bc;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+svg {
+    flex: 0 0 auto;
+    height: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: -5px;
+    width: 34px;
+    fill: #0a2458;
+}
+
+.wh-breadcrumbs {
+    display: block;
+    margin-top: 15px;
+    width: 70%;
+}
+
+.wh-breadcrumbs:not(.wh-breadcrumbs--stacked) .wh-breadcrumbs__wrap {
+    border-top: 1px solid #d7dae2;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 0 20px;
+    scrollbar-width: thin;
+}
+
+.wh-breadcrumbs__wrap {
+    align-items: center;
+    border-bottom: 1px solid #d7dae2;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    min-height: 36px;
+    padding: 0 0 12px;
+}
+
+.introduction p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0a2458;
+}
+.first-section li,
+.second-section li{
+    color: #0a2458;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .wh-breadcrumbs:not(.wh-breadcrumbs--stacked) .wh-breadcrumb:before {
+        transform: rotate(0deg);
+    }
+}
